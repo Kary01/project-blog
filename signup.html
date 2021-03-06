@@ -13,7 +13,7 @@
   <title>My blog</title>
 </head>
 <body>
-  <header>
+  <header class="header--signup">
     <nav>
       <div class="nav-wrapper">
         <a href="index.html" class="brand-logo z-depth-2">
@@ -30,7 +30,7 @@
     <ul class="sidenav" id="mobile-demo">
       <li><a href="#">About us</a></li>
       <li><a href="#">Contact us</a></li>
-      <li><a class="btn" href="#">Sign up</a></li>
+      <li><a class="btn" href="signup.html">Sign up</a></li>
     </ul>
     <section class="header-main z-depth-3 hide"></section>
     <section class="container">
@@ -65,6 +65,34 @@
                 <label for="password">Password</label>
               </div>
             </div>
+            <div class="section">
+              <h3 class="center-align">News</h3>
+            </div>
+            <div class="section">
+              <div class="row">
+                <label class="col s12 m4">
+                  <input type="checkbox" class="filled-in" />
+                  <span>Tech</span>
+                </label>
+                <label class="col s12 m4">
+                  <input type="checkbox" class="filled-in" />
+                  <span>Culture</span>
+                </label>
+                <label class="col s12 m4">
+                  <input type="checkbox" class="filled-in" checked="checked" />
+                  <span>Trips</span>
+                </label>
+              </div>
+            </div>
+            <div class="section">
+              <div class="row">
+                <div class="col s12">
+                  <button class="btn-large waves-effect waves-light center-align" type="submit" name="action">Send
+                    <i class="material-icons right">send</i>
+                  </button>
+                </div>
+              </div>
+            </div>
           </form>
         </div>
       </div>
@@ -72,7 +100,7 @@
   </main>
 
   <footer class="page-footer">
-
+    <p class="flow-text center-align">Made with ❤</p>
   </footer>
   <!-- javascript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

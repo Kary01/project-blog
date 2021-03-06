@@ -78,3 +78,12 @@ footer.page-footer { /* estilos personalizados, evitar problemas con los estilos
   background-position: center;
   background-size: cover;
 }
+
+/* signup.html */
+.regis--title {
+  margin-top: 80px;
+}
+
+.header--signup {
+  height: 350px;
+}
