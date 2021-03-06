@@ -24,7 +24,6 @@ nav .brand-logo {
 
 nav .brand-logo img {
   width: 52px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav .sidenav-trigger {
@@ -46,4 +45,26 @@ header ul a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.input-field.input--container {
+  height: 100px;
+  float: none;
+  display: flex;
+  margin: 0 auto;
+} 
+
+.input-field > #search {
+  margin-top: 25px;
+  padding-left: 40px;
+}
+
+.input-field i {
+  margin-top: 35px;
+}
+
+footer.page-footer { /* estilos personalizados, evitar problemas con los estilos de materialize*/
+  height: 80px;
+  background-color: gray;
+  bottom: 0;
 }
